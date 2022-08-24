@@ -12,8 +12,6 @@ public class streamMain {
                 .filter(x -> x % 2 == 0)
                 .sorted(Comparator.naturalOrder())
                 .forEach(System.out::println);
-
-
     }
 
 }
